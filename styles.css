@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,500;1,100;1,200;1,300;1,400&display=swap');
+
+body{
+    font-family: 'montserrat';
+    width:100%;
+    margin: 0 ;
+    background-color: rgb(59, 58, 58);
+}
+header{
+    color: white;
+    margin-top: -16px;
+    width: 100%;
+    top:0;
+    background-image: url(img/header.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+}
+.navegador li{
+    display: inline;
+    margin-right: 30px;
+    background-color: black;
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+}
+.link{
+    color: white;
+    text-decoration: none;
+}
+.link:hover{
+    font-style: italic;
+}
+.navegador{
+    padding-top: 16px;
+    text-align: center;
+}
+.titulo{
+    font-size: 70px;
+    margin-left: 50px;
+    text-align: center;
+    padding-top: 50px;
+}
+h3{
+    text-decoration: overline;
+    color: white;
+}
+.sobre-mi{
+    padding-top: 90px;
+    color: white;
+    margin-left: 1100px;
+}
+.azul{
+    float: right;
+    background-color: rgb(0, 217, 255);
+    padding-left: 1000px;
+}
+.azul p{
+    color: white;
+    width: 350px;
+    line-height: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 450px;
+}
+.sergio{
+    width: 450px;
+    height: auto;
+    position: relative;
+    top: -350px;
+    margin-left: 500px;
+}
+.container{
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: -300px;
+}
+.experience{
+    color: white;
+    border-bottom: 1px solid white;
+    margin-left: 180px;
+    line-height: 25px;
+}
+.experiencee{
+    color: white;
+    border-bottom: 1px solid white;
+    margin-left: 180px;
+    line-height: 25px;
+}
+.blue,
+.forma{
+    color: rgb(0, 217, 255);
+}
+.formacion{
+    margin-top: 50px;
+}
+.compet td{
+    width: 300px;
+    height: auto;
+    padding: 10px;
+}
+.compet{
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+.java{
+    width: 50px;
+    height: auto;
+}
+  
+.box {
+    background-color: #ccc;
+    padding: 20px;
+    text-align: center;
+}
+.mas-infoo{
+    margin-top: 200px;
+}
+@media screen and (max-width: 600px) {
+    .navegador li {
+      display: block;
+      text-align: center;
+    }
+    
+    .navegador li a {
+      padding: 10px;
+    }
+    .titulo{
+        font-size: 30px;
+        text-align: left;
+    }
+    .sobre-mi{
+        padding-top: 10px;
+        margin-left: 130px;
+    }
+    .azul p{
+        float: right;
+        padding-right: 0;
+    }
+    .sergio{
+        width: 300px;
+        float: right;
+        margin-top: 400px;
+    }
+    .experience{
+        float: right;
+        margin-top: 450px;
+        width: 500px;
+        line-height: 30px;
+        padding-bottom: 30px;
+    }
+    .experiencee{
+        float: right;
+        margin-top: 700px;
+        width: 500px;
+        line-height: 30px;
+        padding-bottom: 30px;
+    }
+    .exper{
+        padding-top: 20px;
+    }
+    .blue{
+        margin-top: 30px;
+    }
+    .compet{
+        display: block;
+        float: left;
+    }
+}
+
